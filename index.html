@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+        <div>
+
+             <!-- header -->
+                 <div class="jumbotron" style="background-color:black"><h1 class="header" id="headerId">Quiz</h1></div>
+
+             <!--  main body  -->   
+                  <div class="card container" style="width: 100%">
+                             <div class="card-body" id="cardbodyId">
+                                 
+                                   <div><h2 id="title"></h2></div> 
+                                  <div id="options">
+                                      <form >
+                                     <input type="radio" id="option0" name="option" value="0">
+                                     <label for="option0" id="0"></label><br>
+                                         <input type="radio" id="option1" name="option" value="1">
+                                         <label for="option1" id="1">Female</label><br>
+                                         <input type="radio" id="option2" name="option" value="2">
+                                         <label for="option2" id="2">Other</label><br>
+                                         <input type="radio" id="option3" name="option" value="3">
+                                         <label for="option3" id="3">Other</label><br>
+                                         <div id="response"></div><br>
+                                    <button type="button" class="btn btn-warning" id="b1">Submit</button>
+                                      </form>
+                                 </div>
+                                 
+
+                             </div>
+                    </div><br>
+                    <div id="footer" class="container-fluid invisible">
+                    <button type="button" id="restart" class="btn btn-info ml-5" onclick="parent.location='index.html'">Restart</button>
+                    </div>
+
+         </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+

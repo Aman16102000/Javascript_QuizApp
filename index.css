@@ -1,0 +1,11 @@
+.header{
+    color: white;
+    text-align: center;
+    }
+    .invisible{
+        visibility: hidden;
+    }
+    .visible
+    {
+        visibility: visible;
+    }
